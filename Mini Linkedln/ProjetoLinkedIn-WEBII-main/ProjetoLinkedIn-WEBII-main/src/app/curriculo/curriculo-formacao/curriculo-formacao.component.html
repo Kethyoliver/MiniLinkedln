@@ -1,0 +1,9 @@
+<div class="formacao">
+    <h2 class="titulo">Formação Acadêmica</h2>
+    <hr/>
+    <div class="curso" *ngFor="let curso of selectedUser?.formacao">
+        <h3 class="nome">{{ curso?.curso }}</h3>
+        <p class="instituicao">{{ curso?.instituicao }}</p>
+        <p class="data">{{ curso?.['datainicial'] }} - {{ curso?.['datafinal'] }}</p>
+    </div>
+</div>

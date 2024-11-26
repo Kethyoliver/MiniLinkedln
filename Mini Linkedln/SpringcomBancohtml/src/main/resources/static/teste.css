@@ -1,0 +1,22 @@
+h1{
+  font-style: italic;
+}
+#fundo{
+  background-color: lightgrey;
+}
+.paragrafo{
+  color: red;
+}
+
+h2{
+  font-style: italic;
+  color: red;
+}
+h3{
+    color: blueviolet;    
+}
+.paragrafo{
+  color: blue;
+}
+
+

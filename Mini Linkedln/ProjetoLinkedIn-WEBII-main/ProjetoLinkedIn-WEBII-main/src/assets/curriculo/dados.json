@@ -1,0 +1,67 @@
+{
+    "usuario": [
+        {
+            "id": 0,
+            "nome": "Kethelyn Ellen ",
+            "imgPerfil": "https://media.licdn.com/dms/image/v2/D4D03AQE8mXole8YEjA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1690037822505?e=1737590400&v=beta&t=IZHMtjkTGOPYbRJIoZG3ikyW4lPQaPj_66--066FVds",
+            "imgBanner": "https://media.licdn.com/dms/image/v2/D4D16AQFG1O_vqPq9Rg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1690036701992?e=1737590400&v=beta&t=TTHHEWlEBVY5Y7NlvgoAh6UNFL5AvWgqwuzV9jDMJ5Q",
+            "titulo": "Junior Backend Developer | .Net | C# | SQL Server",
+            "sobre": "Sou desenvolvedora back-end em formação, cursando o último ano de Análise e Desenvolvimento de Sistemas na Faculdade Senai, com formação técnica em Desenvolvimento de Sistemas pela ETEC JK. Tenho interesse em novas tecnologias e soluções inovadoras. Atualmente, sou estagiária na Volkswagen Financial Services, com experiência em processos administrativos e uso do SAP. Também atuei na Câmara Municipal de São Paulo, organizando arquivos, elaborando planilhas e atendendo clientes. Possuo habilidades em VBA Excel, Problem Solving e Comunicação, garantindo qualidade e eficiência nas tarefas.",
+            "formacao": [
+                {
+                    "curso": "Análise e Desenvolvimento de Sistemas",
+                    "datainicial": "01/2023",
+                    "datafinal": "12/2024",
+                    "instituicao": "Faculdade SENAI de Tecnologia Mecatrônica"
+                },
+                {
+                    "curso": "Desenvolvimento de Sistemas",
+                    "datainicial": "10/2024",
+                    "datafinal": "03/2026",
+                    "instituicao": "Escola Técnica FAT"
+                }
+            ],
+            "experiencia": [
+                {
+                    "cargo": "Volkswagen Financial Services",
+                    "empresa": "Estagiária",
+                    "datainicial": "02/2024",
+                    "datafinal": "12/2024",
+                    "descricao": "Auxilio em emissão de termos de cessão de direito, suporte na conciliação dearquivos no Excel, reinclusão de gravames, registro de imagens no Detran, troca de UF, agendamento devistoria, inconsistência de cessão e substituição, gerenciamento de documentos, expurgos de contratos,apoio no envio de documentos de cessão e substituição, cadastro de contas e desenvolvimento de macro."
+                },
+                {
+                    "cargo": "Estagiária de administração",
+                    "empresa": "Câmara Municipal de São Paulo",
+                    "datainicial": "11/2017",
+                    "datafinal": "12/2018",
+                    "descricao": "Auxiliava na organização de arquivos, digitalização dos documentos, escaneava, elaborava planilhas, recebia, identificava e a entrega de documentos, auxiliava em atividades administrativas."
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "nome": "André C. Parise",
+            "imgPerfil": "https://media.licdn.com/dms/image/v2/D4E03AQEiKHXtKf3jXQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1693931526139?e=1737590400&v=beta&t=4HSFFt_N97JIQqzFAyVy_IZ96qolOW02KHw7ipnePLA",
+            "imgBanner": "https://img.freepik.com/fotos-gratis/superficie-cinza-com-linhas_1203-1513.jpg?semt=ais_hybrid",
+            "titulo": "Aluno do SENAI ADS",
+            "sobre": "Lorem ipsum dolor sit amet, consectetur!",
+            "formacao": [
+                {
+                    "curso": "Análise e Desenvolvimento de Sistemas",
+                    "datainicial": "01/2023",
+                    "datafinal": "12/2024",
+                    "instituicao": "Faculdade SENAI de Tecnologia Mecatrônica"
+                }
+            ],
+            "experiencia": [
+                {
+                    "cargo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, vel fuga. Ipsam repellat quaerat itaque cum error optio sapiente dolores dolore repudiandae praesentium. Atque, saepe commodi accusantium voluptates quae magnam!",
+                    "empresa": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, vel fuga. Ipsam repellat quaerat itaque cum error optio sapiente dolores dolore repudiandae praesentium. Atque, saepe commodi accusantium voluptates quae magnam!",
+                    "datainicial": "",
+                    "datafinal": "",
+                    "descricao": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, vel fuga. Ipsam repellat quaerat itaque cum error optio sapiente dolores dolore repudiandae praesentium. Atque, saepe commodi accusantium voluptates quae magnam!"
+                }
+            ]
+        }
+    ]
+}

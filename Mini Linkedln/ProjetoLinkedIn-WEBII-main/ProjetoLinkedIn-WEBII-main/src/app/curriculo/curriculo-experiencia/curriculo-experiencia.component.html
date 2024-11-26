@@ -1,0 +1,10 @@
+<div class="experiencia">
+  <h2 class="titulo">Experiência Profissional</h2>
+  <hr>
+  <div class="conteudo" *ngFor="let exp of selectedUser?.experiencia">
+      <h3 class="nome">{{ exp?.cargo }}</h3>
+      <p class="empresa">{{ exp?.empresa }}</p>
+      <p class="data">{{ exp?.datainicial }} - {{ exp?.datafinal }}</p>
+      <p class="descricao">{{ exp?.descricao }}</p>
+  </div>
+</div>

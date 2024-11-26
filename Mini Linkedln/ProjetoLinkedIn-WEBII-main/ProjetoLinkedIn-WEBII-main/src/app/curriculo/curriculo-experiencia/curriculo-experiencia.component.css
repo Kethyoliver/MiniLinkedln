@@ -1,0 +1,46 @@
+.experiencia {
+    width: 100%;
+    text-align: justify;
+    position: relative;
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+
+.conteudo {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.nome { 
+    font-size: 22px;
+}
+
+.empresa{
+    font-size: 18px;
+}
+
+
+.nome, .descricao, .data, .empresa{
+    margin: 5px;
+}
+
+.data{
+    color: #555;
+    font-size: 14px;
+}
+
+.descricao{
+    line-height: 1.5; 
+}
+

@@ -1,0 +1,139 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    box-shadow: 0px 6px 5px rgb(77, 77, 77);
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.interface-header{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu i {
+    font-size: 20px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.menu li i {
+    font-size: 24px;
+}
+
+.menu li p {
+    font-size: 12px;
+    margin: 0;
+    padding-top: 2px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding-top: 17px;
+}
+
+.logo a img {
+    height: 40px;
+}
+
+/* Barra de Pesquisa */
+.search-form {
+    position: relative;
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.search-form input {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding-left: 40px;
+    outline: none;
+    background-color: #edf3f8;
+    transition: width 0.3s ease, border-color 0.3s ease;
+}
+
+
+.search-form i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #000000;
+}
+
+.search-form input:focus {
+    width: 290px;
+    border: 2px solid #4ea2f1;
+}
+
+/* Perfil do Usuário */
+.perfil2 {
+    display: flex;
+    align-items: center;
+}
+
+.perfil2 a {
+    display: flex; 
+    align-items: center;
+}
+
+.perfil2 p {
+    margin-right: 5px;
+}
+
+.perfil2 svg {
+    padding-top: 4px;
+    margin-left: 2px; 
+    vertical-align: middle; 
+}
+
+.btt {
+    color: 'black';
+    padding: 0;
+    margin: 0;
+    font-size: 12px; 
+    display: flex; 
+
+}
+.btt:hover {
+    color: #000; 
+}
+/*acaba menu do feed*/

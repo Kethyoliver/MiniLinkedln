@@ -1,0 +1,36 @@
+<header>
+    <div class="interface-header">
+
+        <div class="logo">
+            <p>
+                <a href="#topo"><img
+                        src="https://blog.waalaxy.com/wp-content/uploads/2021/01/24.png"></a>
+            </p>
+        </div>
+
+        <form class="search-form">
+            <i class="bi bi-search"></i>
+            <input class="search-input" type="search" placeholder="Pesquisar" aria-label="Search">
+        </form>
+
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a [routerLink]="['/feed']"><i class="bi bi-house-door-fill"></i><p>Início</p></a></li>
+                <li><a [routerLink]="['/chat']"><i class="bi bi-chat-dots-fill"></i><p>Mensagem</p></a></li>
+                <li><a [routerLink]="['/cadastro']"><i class="bi bi-person-plus-fill"></i><p>Cadastro</p></a></li> <!-- Link para Cadastro -->
+                <li class="perfil">
+                    <i class="bi bi-people-fill"></i>
+                    <div class="perfil2">
+                        <button class="btt" mat-button [matMenuTriggerFor]="menu">Perfils</button>
+                        <mat-menu color="pink" class="btt" #menu="matMenu">
+                            <button mat-menu-item [routerLink]="['/curriculo', 0]" routerLinkActivate='active'>Kethelyn Ellen</button>
+                            <button mat-menu-item [routerLink]="['/curriculo', 1]" routerLinkActivate='active'>Andre Parise</button>
+                        </mat-menu>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+<router-outlet></router-outlet>

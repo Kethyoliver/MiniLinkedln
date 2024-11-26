@@ -1,0 +1,74 @@
+<div class="container cadastro-container">
+  <h1>Crie sua conta</h1>
+  <p class="subtitle">Preencha as informações abaixo para se cadastrar</p>
+
+  <form [formGroup]="cadastroForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="nome" class="form-label">Nome</label>
+      <input 
+        id="nome" 
+        class="form-control" 
+        formControlName="nome" 
+        placeholder="Digite seu nome" 
+        required 
+        aria-required="true"
+      >
+      <div *ngIf="cadastroForm.get('nome')?.invalid && cadastroForm.get('nome')?.touched" class="error">
+        Nome é obrigatório.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="telefone" class="form-label">Telefone</label>
+      <input 
+        id="telefone" 
+        class="form-control" 
+        formControlName="telefone" 
+        placeholder="Digite seu telefone" 
+        required 
+        aria-required="true"
+        type="tel"
+      >
+      <div *ngIf="cadastroForm.get('telefone')?.invalid && cadastroForm.get('telefone')?.touched" class="error">
+        Telefone é inválido.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="email" class="form-label">Email</label>
+      <input 
+        id="email" 
+        class="form-control" 
+        formControlName="email" 
+        placeholder="Digite seu email" 
+        required 
+        aria-required="true"
+        type="email"
+      >
+      <div *ngIf="cadastroForm.get('email')?.invalid && cadastroForm.get('email')?.touched" class="error">
+        Email é inválido.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="senha" class="form-label">Senha</label>
+      <input 
+        id="senha" 
+        class="form-control" 
+        type="password" 
+        formControlName="senha" 
+        placeholder="Digite sua senha" 
+        required 
+        aria-required="true"
+      >
+      <div *ngIf="cadastroForm.get('senha')?.invalid && cadastroForm.get('senha')?.touched" class="error">
+        Senha deve ter pelo menos 6 caracteres.
+      </div>
+    </div>
+    <button class="btn-submit" type="submit">Cadastrar</button>
+  </form>
+
+  <p class="login-link">
+    Já tem uma conta? <a href="/login" class="link">Faça login</a>
+  </p>
+</div>
